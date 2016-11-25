@@ -8,7 +8,6 @@ $(document).ready(function(){
 	$("#jumboP").html("Choose what power " + nameChoice + " should use!");
 
 
-//change size, color, opacity....
 	$(".normalButton").on("click", function(){
 		$(".superHero").animate({height: "300px", width: "200px"});
 	})
@@ -25,12 +24,24 @@ $(document).ready(function(){
 		$(".superHero").animate({height: "500px"});
 	});
 
+
+
 	$(".visButton").on("click", function(){
 		$(".superHero").animate({opacity: "1"});
 	});
 
 	$(".invisButton").on("click", function(){
 		$(".superHero").animate({opacity: "0.1"});
+	});
+
+
+
+	$(".leftButton").on("click", function(){
+		$(".superHero").animate({left: "100px"});
+	});
+
+	$(".rightButton").on("click", function(){
+		$(".superHero").animate({left: "600px"});
 	});
 
 });
