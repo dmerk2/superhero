@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="assets/style.css">
-	<title>Super Powers</title>
+	<title>Super Man</title>
 </head>
 <body>
 
+
+</div>
+<!-- Overall Bootstrap Grid -->
+	<div class="container">
+		<!-- Jumbotron with Title -->
+		<div class="jumbotron">
+		  <h1 id="superHero"></h1>
+		  <p id="jumboP"></p>
+		</div>
+				<!-- Right Panel (Captain Planet Hero)-->
+		<div class="col-lg-6">
+
+			<!-- Captain Planet Image -->
+			<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ79Oh342Pk9oQzCjDZWsDxL-TZnZnYcgZOS-gAPrtQIb0v0SjrRw" alt="" class="superMan" style="position:relative; top:-10px; left: 80px; z-index: -20; height: 300px;">
+
+		</div>
+		<div class="row">
+					<!-- Controls (Superpower Grow/Shrink)-->
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    	<h3 class="panel-title">Superpowers - Change Sizes!</h3>
+			  </div>
+			  <div class="panel-body">
+				  <div class="text-center">
+					    <button class="btn btn-default btn-lg normalButton"><span class="glyphicon glyphicon-ok-sign"></span> Normal</button>
+				    <button class="btn btn-primary btn-lg growButton"><span class="glyphicon glyphicon-plus-sign"></span> Grow</button>
+				    <button class="btn btn-danger btn-lg shrinkButton"><span class="glyphicon glyphicon-minus-sign"></span> Shrink</button>
+
+				    <!-- Stretch -->
+				    <button class="btn btn-success btn-lg stretchButton"><span class="glyphicon glyphicon-ok-sign"></span> Stretch</button>
+				  </div>
+			  </div>
+			</div>
+
+
+			<!-- Controls (Superpower Visibility) -->
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    	<h3 class="panel-title">Superpowers - Invisiblity!</h3>
+			  </div>
+			  <div class="panel-body">
+				  <div class="text-center">
+				    <button class="btn btn-default btn-lg visButton"><span class="glyphicon glyphicon-eye-open"></span> Visible</button>
+				    <button class="btn btn-info btn-lg invisButton"><span class="glyphicon glyphicon-eye-close"></span> Invisible</button>
+				  </div>
+			  </div>
+			</div>
+
+			<!-- Controls (Superpower Move Controls) -->
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    	<h3 class="panel-title">Superpowers - Levitation!</h3>
+			  </div>
+			  <div class="panel-body">
+				  <div class="text-center">
+				    <button class="btn btn-default btn-lg upButton"><span class="glyphicon glyphicon-arrow-up"></button>		  					  
+					  <span class="text-center">
+				    <button class="btn btn-default btn-lg downButton"><span class="glyphicon glyphicon-arrow-down"></span></button></span>
+				  </div>
+			  </div>
+			</div>
+		</div>
+
+
+	</div>
+</div>
+</div>
 <script src="https://code.jquery.com/jquery.js" href="assets/js.js"></script>
 <script type="text/javascript" src="assets/js.js"></script>
+
 </body>
 </html>
